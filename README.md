@@ -1,5 +1,9 @@
 # S.O.L.I.D
 
+### Considerações
+
+Esta aula tem como objetivo ensinar o conteúdo referente aos princípios do <strong>SOLID</strong>, especificamente os princípios: ***Single Responsibility*** e ***Interface Segregation***. Além das referências mencionadas ao final, esta aula também utilizou como referência a formatação e conteúdo contidos no Curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com/).
+
 <details>
 <summary><h3>O que vamos aprender?</h3></summary>
 
@@ -57,10 +61,10 @@ Escrever códigos simples, legíveis e limpos requer prática e demanda mais tem
 </details>
 
 <details>
-<summary><h3>Conteúdos</h3></summary>
+<summary><h3>Conteúdos</h3></summary><blockquote>
 
 <details>
-<summary><h3>Princípios S.O.L.I.D</h3></summary>
+<summary><h3>Princípios S.O.L.I.D</h3></summary><blockquote>
 
 <p align="justify">
 No contexto de programação orientada a objetos, o acrônimo <strong>SOLID</strong>, refere-se a cinco princípios que visam facilitar o desenvolvimento, compreensão e manutenção de códigos. A adoção destas práticas ao programar, leva a diminuição de bugs no software, evita futuras refatorações e contribui para um desenvolvimento ágil e adaptativo. Isto gera impactos fundamentais na nossa produtividade e eficiência como desenvolvedores.
@@ -94,7 +98,7 @@ Caso não tenha entendido a descrição de algum princípio, não se preocupe, v
 </details>
 
 <details>
-<summary><h3>Single Responsibility Principle</h3></summary>
+<summary><h3>Single Responsibility Principle</h3></summary><blockquote>
 
 <p align="justify">
 Este princípio nos instrui no sentido de que uma classe deve ter apenas uma razão para mudar, deve fazer apenas uma função, ter apenas uma responsabilidade. Além de classes, também podemos extender esta orientação para métodos, funções, módulos, arquivos, dentro outros. Mas o que queremos dizer por apenas uma responsabilidade?
@@ -217,7 +221,7 @@ Dividimos então a antiga "God Class" Order, que fazia todas as funções em um 
 
 </p>
 
-</details>
+</blockquote></details>
 
 <details>
 <summary><h3>Interface Segregation Principle</h3></summary>
@@ -417,8 +421,8 @@ class MechanicalWatch implements IWatch {
 Perceba que agora a interface IWatch contém funcionalidades básicas que são comuns entre os tipos de relógio, assim, nossa classe MechanicalWatch precisa implementar apenas os métodos que são pertinentes a este tipo de relógio. Como criamos interfaces específicas para cada uma das funcionalidades, conseguimos também criar diferentes smartwatches que implementam apenas os métodos das funcionalidades que cada um possui.
 </p>
 
-</details>
-</details>
+</blockquote></details>
+</blockquote></details>
 
 <details>
 <summary><h3>Agora a prática</h3></summary>
@@ -665,7 +669,7 @@ class Car implements ICar {
 </details>
 
 <details>
-<summary><h3>Recursos adicionais (opcional)</h3></summary>
+<summary><h3>Recursos adicionais e referências</h3></summary>
 
 - [O que é SOLID: O guia completo para você entender os 5 princípios da POO](https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530)
 - [Princípios SOLID com TypeScript](https://medium.com/@matheusbessa_44838/princ%C3%ADpios-solid-com-typescript-4f8a9d5d1ef8)
